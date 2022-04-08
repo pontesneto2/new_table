@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div>
+        <p class="logo">{var_imagem_sda}</p>
+        </div>
+
+        <div class="div-header">
+        <tr class="container-header">
+            <td class="title-edital">EDITAL DE CHAMADA PÚBLICA Nº {var_n_chamada_publica}</td>
+            <td class="descricao-edital">PROJETO DE VENDA DE GÊNEROS ALIMENTÍCIOS DA AGRICULTURA FAMILIAR PARA ALIMENTAÇÃO ESCOLAR - SECAF.</td>
+        </tr>
+        </div>
+        
+            <tr class="table-header">
+                <td>IDENTIFICAÇÃO DA PROPOSTA DE ATENDIMENTO AO EDITAL/CHAMADA PÚBLICA Nº {var_numero_edital}</td>
+            </tr>
+
+        <div class="table-header2">
+            <tr>
+                <td>I - IDENTIFICAÇÃO DOS FORNECEDORES</td>
+                <td><br>GRUPO FORMAL</td>
+            </tr>
+        </div>
+
+        <table class="container-table">
+            <tr>
+                <td colspan="4">1- Nome do Proponente: {var_proponente}</td>
+                <td colspan="2">2- CNPJ: {var_cnpj}</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">3- Endereço: {var_endereco}</td>
+                <td colspan="2">4- Município/UF: {var_municipio}</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">5- Email: {var_email}</td>
+                <td colspan="2">6- DDD/Fone: {var_fone}</td>
+                <td colspan="1">7- CEP: {var_cep}</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">8- Nº DAP Jurídica: {var_dap_jur}</td>
+                <td colspan="1">9- Banco: {var_banco}</td>
+                <td colspan="1">10- Agência: {var_agencia}</td>
+                <td colspan="2">11- Nº da Conta:{var_conta}</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">12- Nº de Associados: {var_ass}</td>
+                <td colspan="2">13- Nº de Associados (Lei nº11.326/2006): {var_ass_lei}</td>
+                <td colspan="2">14- Nº de Associados com DAP Física: {var_dap}</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">15- Nome do Representante Legal: {var_representante_legal}</td>
+                <td colspan="1">16- CPF: {var_cpf_rep}</td>
+                <td colspan="1">17- DDD/Fone: {var_fone_rep}</td>
+            </tr>
+
+            <tr class="table-header2">
+                    <td colspan="6">II - IDENTIFICAÇÃO DA ENTIDADE EXECUTORA DO PNAE/FNDE/MEC</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">1- Nome da Entidade: {var_entidade}</td>
+                <td colspan="2">2- CNPJ: {var_cnpj_ent}</td>
+                <td colspan="1">3- Município/UF: {var_mun_ent}</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">4- Endereço: {var_endereco_ent}</td>
+                <td colspan="2">5- DDD/Fone: {var_fone_ent}</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">6- Nome do Representante: {var_representante}</td>
+                <td colspan="2">7- CPF: {var_cpf_rep}</td>
+                <td colspan="1">7- Email: {var_email_rep}</td>
+            </tr>
+
+            <tr class="table-header2">
+                <td colspan="6">III - RELAÇÃO DE PRODUTOS</td>
+            </tr>
+
+            <tr class="table-table">
+                <td style="width: 27%;">1.Produto</td>
+                <td style="width: 15%;">2.UND</td>
+                <td style="width: 12%;">3.QTD</td>
+                <td style="width: 12%;">4.Preço Unitário<br> de Aquisição</td>
+                <td style="width: 12%;">4.Preço Total<br> de Aquisição</td>
+                <td style="width: 20%;">5.Cronograma de Entrega dos Produtos</td>
+            </tr>
+            <tr class="table-table">
+                <td>{var_produto}</td>
+                <td>{var_produto_und}</td>
+                <td>{var_produto_qtd}</td>
+                <td>{var_preco_unit}</td>
+                <td>{var_preco_total}</td>
+                <td>De acordo com o cronograma estabelecido<br> no Edital</td>
+            </tr>
+            <tr class="table-table">
+                <td>{var_produto}</td>
+                <td>{var_produto_und}</td>
+                <td>{var_produto_qtd}</td>
+                <td>{var_preco_unit}</td>
+                <td>{var_preco_total}</td>
+                <td>De acordo com o cronograma estabelecido<br> no Edital</td>
+            </tr>
+            <tr class="table-table">
+                <td>{var_produto}</td>
+                <td>{var_produto_und}</td>
+                <td>{var_produto_qtd}</td>
+                <td>{var_preco_unit}</td>
+                <td>{var_preco_total}</td>
+                <td>De acordo com o cronograma estabelecido<br> no Edital</td>
+            </tr>
+            <tr class="table-table">
+                <td colspan="6">OBS.:Preço publicado no Edital nº {var_numero_edital}*</td>
+            </tr>
+
+            <tr class="table-header2">
+                <td colspan="6">IV - FORNECEDORES PARTICIPANTES</td>
+            </tr>
+
+            <tr class="table-table">
+                <td>1.Agricultor(a)</td>
+                <td>2.CPF</td>
+                <td>3.DAP</td>
+                <td>4.Banco</td>
+                <td>4.Nº da Agência</td>
+                <td>5.Nº Conta Corrente</td>
+            </tr>
+            <tr>
+                <td>{var_agricultor}</td>
+                <td>{var_cpf_agri}</td>
+                <td>{var_dap_agri}</td>
+                <td>{var_banco_agri}</td>
+                <td>{var_agencia_agri}</td>
+                <td>{var_conta_agri}</td>
+            </tr>
+            <tr>
+                <td>{var_agricultor}</td>
+                <td>{var_cpf_agri}</td>
+                <td>{var_dap_agri}</td>
+                <td>{var_banco_agri}</td>
+                <td>{var_agencia_agri}</td>
+                <td>{var_conta_agri}</td>
+            </tr>
+            <tr class="table-table">
+                <td colspan="6" style="font-weight: bold;">Declaro estar de acordo com as condições estabelecidas neste projeto e que as informações acima conferem com as condições de fornecimento*</td>
+            </tr>
+
+            <tr class="table-table">
+                <td colspan="1">Local e Data</td>
+                <td colspan="2">Assinatura do Representante do Grupo Formal<br>ou Fornecedores - Associação</td>
+                <td colspan="1">DDD/Fone</td>
+                <td colspan="2">Email</td>
+            </tr>
+            <tr class="table-table">
+                <td colspan="1">{var_date_time}</td>
+                <td colspan="2">{var_assinatura}</td>
+                <td colspan="1">{var_fone}</td>
+                <td colspan="2">{var_email}</td>
+            </tr>
+            <tr class="table-table">
+                <td colspan="1">{var_date_time}</td>
+                <td colspan="2">{var_assinatura}</td>
+                <td colspan="1">{var_fone}</td>
+                <td colspan="2">{var_email}</td>
+            </tr>
+            <tr class="table-table">
+                <td colspan="1">{var_date_time}</td>
+                <td colspan="2">{var_assinatura}</td>
+                <td colspan="1">{var_fone}</td>
+                <td colspan="2">{var_email}</td>
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>
+
+
+
+
+<style>
+    /*CSS RESET*/
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, b, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 1%;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+    /*CSS DO CÓDIGO*/
+    .logo{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+    }
+    .div-header{
+        text-align: center;
+    }
+    .title-edital{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .descricao-edital{
+        text-align: justify;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .table-header{
+        text-align: center;
+        background-color: rgb(189, 189, 189);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 5px;
+        border: solid 1px #000000;
+        margin: 0;
+    }
+    .table-header2{
+        text-align: center;
+        background-color: rgb(189, 189, 189);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 5px;
+        border: solid 1px #000000;
+        margin: 0;
+    }
+    .container-table{
+        text-align: start;
+        background-color: #FFFFFF;
+        margin: 0;
+        width: 100%;
+    }
+    .container-table tr td{
+        border: 1px solid #000;
+        height: 30px;
+        word-break: break-all;
+        vertical-align: middle;
+    }
+    .table-table{
+        text-align: center;
+    }
+
+</style>
